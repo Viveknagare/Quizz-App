@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  .quiz-container {
+    width:600px;
+    margin: 50px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #c8bbe8;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .question-container {
+    margin-top: 20px;
+  }
+  
+  .animal-image {
+    width: 200px; /* Adjust width to your preference */
+    height: auto; /* Keeps the aspect ratio intact */
+    margin: px 0; /* Adds some space above and below the image */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .score-container {
+    margin-top: 50px;
+  }
+  
+  .score-container h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .score-container p {
+    font-size: 1.5rem;
+    color: #666;
+  }
+
+  .option-btn {
+    padding: 15px;
+    width: 400px;
+    margin: 10px 0;
+    margin-left: 100px;
+    background-color: #efe9f4;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option-btn:hover {
+    background-color: #ddd;
+  }
+  
+  .correct {
+    background-color: #4caf50; /* Green for correct answer */
+    color: white;
+  }
+  
+  .incorrect {
+    background-color: #f44336; /* Red for incorrect answer */
+    color: white;
+  }
+  
+  .option-btn:disabled {
+    cursor: not-allowed;
+  }
+
+  .reattempt-btn {
+    padding: 12px 24px;              /* Button padding */
+    margin-top: 20px;                /* Spacing above the button */
+    background-color: #4caf50;       /* Green background color */
+    color: white;                    /* White text */
+    border: none;                    /* No border */
+    border-radius: 5px;              /* Rounded corners */
+    cursor: pointer;                 /* Pointer cursor on hover */
+    font-size: 1.2rem;               /* Slightly larger font size */
+    transition: background-color 0.3s ease;  /* Smooth transition effect */
+  }
+  
+  .reattempt-btn:hover {
+    background-color: #45a049;       /* Darker green when hovered */
+  }
+  
+  .reattempt-btn:active {
+    background-color: #3e8e41;       /* Even darker green on click */
+    transform: scale(0.98);          /* Slight scale down on click for effect */
+  }
